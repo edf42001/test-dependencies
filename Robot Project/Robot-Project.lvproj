@@ -41,23 +41,10 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
 				<Item Name="WPI_CameraImageSize.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraImageSize.ctl"/>
-				<Item Name="Completion Status.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Completion Status.ctl"/>
-				<Item Name="Completion Notifier.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Completion Notifier.ctl"/>
-				<Item Name="Command Status Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Command Status Info.ctl"/>
-				<Item Name="Wait for Command.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Wait for Command.vi"/>
-				<Item Name="Should Abort Operation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Should Abort Operation.vi"/>
-				<Item Name="Prep Command Info for Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Prep Command Info for Wait.vi"/>
 			</Item>
 			<Item Name="CreateCommandsFromTemplates.vi" Type="VI" URL="../CreateCommands/CreateCommandsFromTemplates.vi"/>
 			<Item Name="CreateExecuteCommand.vi" Type="VI" URL="../CreateCommands/CreateExecuteCommand.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Framework/Robot Global Data.vi"/>
-			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Shared/RobotNeededPathData.ctl"/>
-			<Item Name="Drive Operations.ctl" Type="VI" URL="../Drive/Implementation/Drive Operations.ctl"/>
-			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../Drive/Implementation/Drive Setpoints.ctl"/>
-			<Item Name="Drive Published Globals.vi" Type="VI" URL="../Drive/Implementation/Drive Published Globals.vi"/>
-			<Item Name="Drive Command Helper.vi" Type="VI" URL="../Drive/Implementation/Infrastructure/Drive Command Helper.vi"/>
-			<Item Name="Drive for Time.vi" Type="VI" URL="../Drive/Commands/Drive for Time.vi"/>
-			<Item Name="Turn to Angle.vi" Type="VI" URL="../Drive/Commands/Turn to Angle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
