@@ -7,10 +7,10 @@ cd CommandTemplates
 
 for filename in *
 do	
-  if [ -z "$(git log -1 --format="%ad" -- "$filename")" ] || [ ! -z "$(git diff "$filename")" ]
+  if [ ! -z "$(git log -1 --format="%ad" -- "$filename")" ] && [ -z "$(git diff "$filename")" ]
   then
-    echo $filename $(date -r "$filename" "+%a %b %d %T %Y %z")
+    echo "$filename $(git log -1 --format="%ai" -- "$filename")"
   else
-    echo "$filename $(git log -1 --format="%ad" -- "$filename")"
+    echo $filename
   fi
 done
